@@ -55,13 +55,8 @@ function Creating_User() {
 
 
 }
-var userArr = [];
-userArr.push(username);
-userArr.push(usergender);
-userArr.push(userage);
-userArr.push(userq1);
-userArr.push(userq2);
-userArr.push(userq3);
+var userArr = [username,usergender,userage,userq1,userq2,userq3];
+
 for(var i=0;i<=5 ;i++)
 {
 console.log('Element ['+ i + '}= ' + userArr[i]);
