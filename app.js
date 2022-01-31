@@ -70,4 +70,11 @@ let userArr = Creating_User();
 for (var i = 0; i <= 2; i++) {
   console.log('Element [' + i + '}= ' + userArr[i]);
 }
+ 
+var userArr = [userq1,userq2,userq3];
+
+for(var i=0;i<=2 ;i++)
+{
+console.log('Element ['+ i + '}= ' + userArr[i]);
+}
 
