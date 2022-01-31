@@ -47,27 +47,27 @@ function Creating_User() {
   if (userq1 === null) {
     userq1 = "Invalid";
   }
-  let userq2 = prompt("Are you feeling better today?", "");
+  let userq2 = prompt("Are you Ride?", "");
   if (userq2 === null) {
     userq2 = "Invalid";
   }
-  let userq3 = prompt("Are you feeling better today?", "");
+  let userq3 = prompt("Are you work full time??", "");
   if (userq3 === null) {
     userq3 = "Invalid";
+
   }
+  var userArr = [];
+
+  userArr.push(userq1);
+  userArr.push(userq2);
+  userArr.push(userq3);
+  return userArr;
+}
+
+let userArr = Creating_User();
 
 
-
-Creating_User();
-
-var userArr = [];
-userArr.push(username);
-userArr.push(usergender);
-userArr.push(userage);
-userArr.push(userq1);
-userArr.push(userq2);
-userArr.push(userq3);
-for (var i = 0; i <= 5; i++) {
+for (var i = 0; i <= 2; i++) {
   console.log('Element [' + i + '}= ' + userArr[i]);
 }
-}
+
